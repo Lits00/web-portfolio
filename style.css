@@ -84,6 +84,10 @@ a:hover {
 }
 
 /* About Me */
+.about-me {
+    margin-top: 12rem !important;
+}
+
 .about-txt {
     width: 70%;
 }
