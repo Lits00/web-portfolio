@@ -155,4 +155,12 @@ footer p {
     li {
         font-size: 2vw;
     }
+
+    .md-size {
+        font-size: 2.3vw;
+    }
+    
+    label ,input {
+        font-size: 2vw;
+    }
   }
