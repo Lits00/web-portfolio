@@ -19,6 +19,15 @@ body {
 .navigation {
     background-color: #112D4E;
 }
+
+.navtxt{
+    font-size: 3.5vh;
+}
+
+.link-txt{
+    font-size: 2vh;
+}
+
 main {
     width: 100%;
     margin: 5% auto;
@@ -118,6 +127,10 @@ ul {
     color: #3F72AF;
 }
 
+.contact-in-touch{
+    font-size: 5vh;
+}
+
 /* Footer */
 footer {
     background-color: #112D4E;
@@ -164,7 +177,24 @@ footer p {
         font-size: 2.3vw;
     }
     
-    label ,input {
+    /* label ,input {
         font-size: 2vw;
+    } */
+
+    .contact-in-touch{
+        font-size: 2.5vh;
+    }
+
+    footer p {
+        margin: 0;
+        font-size: 1.8vw;
+    }
+
+    form label{
+        font-size: 2vh;
+    }
+    .input-txt{
+        /* height: 2vh; */
+        font-size: 1.4vh;
     }
   }
