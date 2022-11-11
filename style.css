@@ -25,7 +25,7 @@ body {
 }
 
 .link-txt{
-    font-size: 2vh;
+    font-size: 2.5vh;
 }
 
 main {
@@ -111,24 +111,78 @@ ul {
 
 /* Skills */
 
-/* Projects */
-.projects img {
+.skills-img{
+    opacity: 1;
+    height: 100%;
+    width: 5vw;
     border-radius: 1rem;
-    width: 100%;
-    box-shadow: .8rem 1rem 2rem .1rem #3F72AF;
+    margin: 0 .5rem;
+    padding-top: 1rem;
+    transition: .5s ease;
+    backface-visibility: hidden;
 }
+
+.skills-txt{
+    background-color: #3F72AF;
+    color: white;
+    font-size: 1vw;
+    padding: .5vw;
+}
+
+
+/* Projects */
+.item-container{
+    position: relative;
+}
+
+.proj-img{
+    opacity: 1;
+    height: 100%;
+    width: 25vw;
+    border-radius: 1rem;
+    margin: 0 .5rem;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.img-overlay{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.item-container:hover .proj-img{
+    opacity: 0.6;
+}
+
+.item-container:hover .img-overlay{
+    opacity: 1;
+}
+
+.text {
+    background-color: #3F72AF;
+    color: white;
+    font-size: 1vw;
+    padding: 1rem;
+  }
 
 /* Contact Me */
-.h-color {
-    color: #3F72AF;
-}
-
-.md-size {
+.h-color, .md-size {
     color: #3F72AF;
 }
 
 .contact-in-touch{
     font-size: 5vh;
+}
+
+.social-links{
+    width: 2.5vw;
+    margin: 0.5rem;
 }
 
 /* Footer */
@@ -185,7 +239,11 @@ footer p {
         font-size: 2.5vh;
     }
 
-    footer p {
+    .social-links{
+        width: 4vw;
+    }
+
+    footer p, footer em {
         margin: 0;
         font-size: 1.8vw;
     }
